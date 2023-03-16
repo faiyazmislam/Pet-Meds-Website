@@ -6,22 +6,22 @@
 <head runat="server">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
+
     </asp:ContentPlaceHolder>
 </head>
 <body style="background-color:lightyellow;">
     <form id="form1" runat="server" >
         <div style="text-align:center">
             <h1 style="color:darkred; text-decoration:underline; font-size:30px;">Pet Meds</h1>
+            <div style="display:flex; flex-direction:row; justify-content:space-around; width:100%" >
+                <a style="color:black;" href="Home.aspx">Home</a> <a style="color:red;" href="PetOwner.aspx">Pet Owner</a> <a style="color:green;" href="Vet.aspx">Veternerian</a> <a style="color:blue;" href="CusSerRep.aspx">Customer Service Rep</a> <a style="color:purple;" href="DisDep.aspx">Dispensing Department</a>
+            </div><br />
+            <asp:Image ID="imgDog" runat="server" ImageUrl="~/dog.jpg" />
+            <br />
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                <div style="display:flex; flex-direction:row; justify-content:space-around; width:100%" >
-                    <a style="color:black;" href="Home.aspx">Home</a>
-                    <a style="color:red;" href="PetOwner.aspx">Pet Owner</a>
-                    <a style="color:green;" href="Vet.aspx">Veternerian</a>
-                    <a style="color:blue;" href="CusSerRep.aspx">Customer Service Rep</a>
-                    <a style="color:purple;" href="DisDep.aspx">Dispensing Department</a>
-                </div>
             </asp:ContentPlaceHolder>
         </div>
     </form>
+    
 </body>
 </html>

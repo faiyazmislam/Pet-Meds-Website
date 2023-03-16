@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="CusSerRep.aspx" />
     <Content Include="DisDep.aspx" />
+    <Content Include="dog.jpg" />
     <Content Include="Home.aspx" />
     <Content Include="PetOwner.aspx" />
     <Content Include="Vet.aspx" />
