@@ -5,16 +5,17 @@
 
     <div style="text-align:center" >
 
-        <h1 style="font-size:20px;">Pet Name</h1>
-        <ul>
-            <li>Age</li>
-            <li>DOB</li>
-            <li>Type</li>
-            <li>Desc</li>
-        </ul>
-        <br /><br />
-
-        <asp:Button ID="Button1" runat="server" Text="Order Medications" BackColor="Red" BorderStyle="None" Font-Bold="True" ForeColor="White" /><br /><br />
-        <asp:Button ID="Button2" runat="server" Text="View Notifications" BackColor="Blue" BorderStyle="None" Font-Bold="True" ForeColor="White" /><br />
+    <h1 style="font-size:20px;">Pet Name</h1>
+    <ul>
+        <li>Age</li>
+        <li>DOB</li>
+        <li>Type</li>
+        <li>Desc</li>
+    </ul>
+    <br /><br />
+    <button type="button" class="btn btn-danger">Order Medications</button>
+    <br /><br />
+    <button type="button" class="btn btn-info">View Notifications</button>
+    <br />
     </div>
 </asp:Content>
