@@ -67,12 +67,60 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CusSerRep.aspx" />
+    <Content Include="DisDep.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="PetOwner.aspx" />
+    <Content Include="Vet.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CusSerRep.aspx.cs">
+      <DependentUpon>CusSerRep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CusSerRep.aspx.designer.cs">
+      <DependentUpon>CusSerRep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisDep.aspx.cs">
+      <DependentUpon>DisDep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisDep.aspx.designer.cs">
+      <DependentUpon>DisDep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PetOwner.aspx.cs">
+      <DependentUpon>PetOwner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PetOwner.aspx.designer.cs">
+      <DependentUpon>PetOwner.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vet.aspx.cs">
+      <DependentUpon>Vet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vet.aspx.designer.cs">
+      <DependentUpon>Vet.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Main.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

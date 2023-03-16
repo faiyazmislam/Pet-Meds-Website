@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Faiyaz_Islam___Pet_Meds_Website.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="background-color:lightyellow; text-align:center">
+            <h1 style="color:darkred; text-decoration:underline; font-size:15px;">Pet Meds</h1>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <div style="display:flex; flex-direction:row; justify-content:space-around; width:25%" >
+                    <a href="Home.aspx">Home</a>
+                    <a href="Vet.aspx">Vet</a>
+                    <a href="CusSerRep.aspx">Customer Service Rep</a>
+                    <a href="DisDep.aspx">Dispensing Department</a>
+                </div>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
