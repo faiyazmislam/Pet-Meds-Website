@@ -14,7 +14,7 @@
             <h1 class="card-title text-secondary" style="font-size:30px; font-family:'Lucida Bright';">We care when others don't</h1>
             </div>
         </div>
-        <br /><br />
+        <br /><br /> 
     </div>
 
 </asp:Content>
